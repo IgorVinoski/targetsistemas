@@ -34,10 +34,10 @@ public class Quest3 {
                     String valor = elementoValor.getTextContent();
 
                     System.out.println(valor);
-                    int valores[] = new int[tamanhoLista];
+                    double valores[] = new double[tamanhoLista];
 
-                     valores[i] = Integer.parseInt(valor);
-
+                     valores[i] = Double.parseDouble(valor);
+                    System.out.println(valores[i]);
 
                 }
 
